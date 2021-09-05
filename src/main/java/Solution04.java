@@ -15,24 +15,24 @@ public class Solution04 {
     public static void main(String[] args) {
 
         /*prompt message to enter noun*/
-        System.out.printf("Enter a noun: ");
+        System.out.print("Enter a noun: ");
         Scanner input = new Scanner(System.in);
         String noun = input.nextLine();
 
         /*prompt message to enter verb*/
-        System.out.printf("Enter a verb: ");
+        System.out.print("Enter a verb: ");
         String verb = input.nextLine();
 
         /*prompt message to enter adverb*/
-        System.out.printf("Enter an adverb: ");
+        System.out.print("Enter an adverb: ");
         String adverb = input.nextLine();
 
         /*prompt message to enter adjective*/
-        System.out.printf("Enter an adjective: ");
+        System.out.print("Enter an adjective: ");
         String adj = input.nextLine();
 
         /*repeat back to user*/
-        System.out.printf("Do you "+verb+" your "+ adj + " " + noun + " " + adverb + " ? That's hilarious!");
+        System.out.print("Do you "+verb+" your "+ adj + " " + noun + " " + adverb + " ? That's hilarious!");
 
 
     }
